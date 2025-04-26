@@ -102,4 +102,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Trigger rebuild 1
+ # Trigger rebuild 1
