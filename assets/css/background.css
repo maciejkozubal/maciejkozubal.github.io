@@ -1,0 +1,4 @@
+body {
+  background: url('/assets/images/background.png') center center / cover no-repeat fixed, #0a0a0a;
+  background-blend-mode: overlay;
+}
