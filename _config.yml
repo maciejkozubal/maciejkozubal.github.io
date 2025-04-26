@@ -101,3 +101,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Trigger rebuild 1
