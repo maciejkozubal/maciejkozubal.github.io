@@ -1,15 +1,56 @@
+########################################################################
+#  👋  Minimal Mistakes configuration                                  #
+########################################################################
+
+# -------------------------------
+# SITE META
+# -------------------------------
 title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer building production-grade ML and LLM systems."
-minimal_mistakes_skin: contrast   # crisp dark-on-light palette
-# --- keep the rest of your current config above this line ---
+url: "https://maciejkozubal.github.io"       # update after username change propagates
+baseurl: ""                                  # leave empty for user-site repo
 
+# -------------------------------
+# THEME & BUILD
+# -------------------------------
+remote_theme: "mmistakes/minimal-mistakes"   # load theme at build time
+theme: null                 
+minimal_mistakes_skin: "contrast"            # light skin; pairs well with dark mode toggle
+
+markdown: kramdown
+paginate: 5
+paginate_path: /page:num/
+
+# Enable Jekyll plugins allowed on GitHub Pages
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme            # required for remote_theme
+
+# Sass: allow custom overrides (e.g. assets/css/custom.scss)
+sass:
+  style: compressed
+
+# -------------------------------
+# DEFAULT CONTENT LOCATIONS
+# -------------------------------
+include:
+  - _pages
+
+# -------------------------------
+# AUTHOR / SIDEBAR PROFILE
+# -------------------------------
 author:
   name   : "Maciej Kozubal"
   avatar : "/assets/images/avatar.jpg"
   bio    : >-
-    Data Scientist & ML Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs, and semiconductor physics.
-    Currently at Seldon building and deploying production-grade ML/LLM architectures with a focus on performance,
-    scalability, and observability.
+    Data Scientist & ML Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
+    and semiconductor physics. Currently at Seldon, deploying production-grade ML/LLM
+    architectures with a focus on performance, scalability, and observability.
   location: "London, UK"
   links:
     - label: "LinkedIn"
@@ -25,8 +66,38 @@ author:
       icon : "fas fa-fw fa-envelope"
       url  : "mailto:mkoz001@gmail.com"
 
-# Show sidebar (author profile) site-wide
+# Display author sidebar everywhere
 author_profile: true
 
-sass:
-  style: compressed
+# -------------------------------
+# PAGINATION / ARCHIVE LAYOUT DEFAULTS
+# -------------------------------
+defaults:
+  # Posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # Pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# -------------------------------
+# CATEGORY & TAG ARCHIVE SETTINGS
+# -------------------------------
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
