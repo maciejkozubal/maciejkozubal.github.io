@@ -15,7 +15,7 @@ baseurl: ""                                  # leave empty for user-site repo
 # -------------------------------
 remote_theme: "mmistakes/minimal-mistakes"   # load theme at build time
 theme: null                 
-minimal_mistakes_skin: "contrast"            # light skin; pairs well with dark mode toggle
+minimal_mistakes_skin: "dark"
 
 markdown: kramdown
 paginate: 5
