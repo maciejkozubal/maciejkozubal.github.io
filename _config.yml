@@ -10,8 +10,7 @@ search: true
 author:
   name   : "Maciej Kozubal"
   avatar : "/assets/images/avatar.jpg"
-  bio    : >-
-    ML/MLOps engineer focused on deploying scalable AI systems.
+  bio: "Full-stack developer and ML/MLOps engineer with a passion for building scalable AI systems and data-driven applications."
   location: "London, UK"
   links:
     - label: "LinkedIn"
