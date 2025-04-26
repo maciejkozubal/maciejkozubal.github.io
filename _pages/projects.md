@@ -5,14 +5,13 @@ layout: single
 author_profile: true
 ---
 
-Here are some of the projects I've worked on:
+## 🛠 Selected Builds
 
-- **AI-Powered Chatbot**: Developed a conversational AI chatbot using NLP techniques to enhance customer support services.
+| Year | Project | Stack & Highlights |
+|------|---------|--------------------|
+| 2024 | **LLM Customer-Support Chatbot** | LangChain · OpenAI API · Vue front-end · <br>Deployed on Kubernetes with Seldon Core & Prometheus monitoring |
+| 2024 | **MLOps Pipeline Automation** | GitHub Actions · Argo CD · Helm · KServe · <br>Zero-downtime canary deployment pattern |
+| 2023 | **Stock-Forecasting Platform** | Prophet · SARIMAX · Airflow · Azure Functions · <br>API first; dashboard in Grafana |
+| 2022 | **COVID-19 Biosensor Analytics** | Pandas · Scikit-learn · SHAP explainability · <br>Edge device integration |
 
-- **MLOps Pipeline Automation**: Implemented CI/CD pipelines for machine learning models, streamlining the deployment process and reducing time-to-production.
-
-- **Data Visualization Dashboard**: Created an interactive dashboard for real-time data analytics, enabling stakeholders to make informed decisions.
-
-- **Scalable Web Application**: Built a full-stack web application using React and Node.js, handling thousands of concurrent users efficiently.
-
-Each project reflects my commitment to integrating AI solutions into practical applications. More details and code repositories are available on my [GitHub](https://github.com/maciejkozubal).
+*Full code or notebooks for many of these live in my [GitHub](https://github.com/matthiaskozubal?tab=repositories).*

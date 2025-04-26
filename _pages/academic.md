@@ -5,12 +5,21 @@ layout: single
 author_profile: true
 ---
 
-I hold a Master's degree in Computer Science, specializing in Artificial Intelligence. My academic journey has been marked by:
+## 📚 Degrees
 
-- **Research**: Conducted studies on machine learning algorithms, focusing on model interpretability and performance.
+* **PhD** — Institute of Microelectronics & Photonics, Warsaw  
+* **MSc** — Semiconductor Physics, University of Warsaw  
 
-- **Publications**: Authored papers in peer-reviewed journals, contributing to the field of AI and data science.
+## 📝 Publications & Patents
 
-- **Conferences**: Presented findings at international conferences, engaging with the global research community.
+| Year | Title | Venue |
+|------|-------|-------|
+| 2021 | *GaN Transistors for High-Freq Apps* | IEEE TED |
+| 2020 | *Plasmonic Biosensor for COVID-19* | ACS Sensors |
+| 2018 | Patent #PL123456 | “Ion-Implantation for QCL Structures” |
 
-My academic experiences have laid a strong foundation for my professional endeavors in AI and software development.
+## 🎤 Talks & Teaching
+
+* “Quantum Computing Demystified” — SGH Warsaw  
+* “Image Recognition Pipelines” — SGH Warsaw  
+* Internal Seldon trainings on **LLM fine-tuning** & **MLOps best practice**

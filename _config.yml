@@ -27,3 +27,6 @@ author:
 
 # Show sidebar (author profile) site-wide
 author_profile: true
+
+sass:
+  style: compressed
