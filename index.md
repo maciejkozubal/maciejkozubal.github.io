@@ -17,3 +17,10 @@ Welcome! Check out:
   <a class="btn btn--primary" href="/blog/">Blog</a>
   <a class="btn btn--primary" href="/academic/">Academic</a>
 </div>
+
+
+{% include button label="About" url="/about/" %}  
+{% include button label="Projects" url="/projects/" %}  
+{% include button label="Blog" url="/blog/" %}  
+{% include button label="Academic" url="/academic/" %}
+
