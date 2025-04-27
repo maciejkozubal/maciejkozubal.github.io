@@ -10,7 +10,7 @@ excerpt: "Full-stack Data Scientist · ML/MLOps Engineer · LLM & GenAI Practiti
 
 Welcome! Check out:
 
-{% include button label="About" url="/about/" %}
-{% include button label="Projects" url="/projects/" %}
-{% include button label="Blog" url="/blog/" %}
-{% include button label="Academic" url="/academic/" %}
+{% include button.html label="About"    url="/about/" %}
+{% include button.html label="Projects" url="/projects/" %}
+{% include button.html label="Blog"     url="/blog/" %}
+{% include button.html label="Academic" url="/academic/" %}
