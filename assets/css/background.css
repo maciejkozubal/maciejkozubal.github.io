@@ -1,19 +1,23 @@
-/* global background image */body {
-  background: #0a0b10 url('/assets/images/background.png') center/cover fixed no-repeat;
+/* ------------- Global neural-net background ------------- */
+body {
+  background: #0a0b10 url('{{ "/assets/images/background.png" | relative_url }}')
+              center/cover fixed no-repeat;
 }
 
-/* keep everything transparent so the image shows */
+/* Let the image shine through every wrapper the theme adds */
+.site-header,
 .page,
 .page__inner-wrap,
 .page__content,
 .wrapper,
 .site-content,
-.site-header,
-.site-footer {
+.site-footer,
+.masthead,
+.initial-content {
   background: transparent !important;
 }
 
-/* optional: soften pattern on narrow screens */
+/* Optional: scale pattern a bit on tiny screens */
 @media (max-width: 600px) {
   body { background-size: 150%; }
 }
