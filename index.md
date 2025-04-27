@@ -2,9 +2,6 @@
 layout: splash
 title: "Maciej Kozubal"
 author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.25"
 excerpt: "Full-stack Data Scientist · ML/MLOps Engineer · LLM & GenAI Practitioner"
 ---
 
