@@ -46,7 +46,7 @@ include:
 # AUTHOR / SIDEBAR PROFILE
 # -------------------------------
 author:
-  name   : "Maciej Kozubal"
+  name   : "Maciej Kozubal delete"
   avatar : "/assets/images/avatar.jpg"
   bio    : >-
     Data Scientist & ML/MLOps Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
