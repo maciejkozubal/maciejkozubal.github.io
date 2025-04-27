@@ -6,7 +6,7 @@
 # -------------------------------
 # SITE META
 # -------------------------------
-title: "Maciej Kozubal test"
+title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer building production-grade ML and LLM systems."
 url: "https://maciejkozubal.github.io"       
 baseurl: ""                                  # leave empty for user-site repo
@@ -46,7 +46,7 @@ include:
 # AUTHOR / SIDEBAR PROFILE
 # -------------------------------
 author:
-  name   : "Maciej Kozubal delete"
+  name   : "Maciej Kozubal"
   avatar : "/assets/images/avatar.jpg"
   bio    : >-
     Data Scientist & ML/MLOps Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
