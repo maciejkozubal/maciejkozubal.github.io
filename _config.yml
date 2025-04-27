@@ -46,10 +46,10 @@ include:
 # AUTHOR / SIDEBAR PROFILE
 # -------------------------------
 author:
-  name   : "Maciej Kozubal test"
+  name   : "Maciej Kozubal"
   avatar : "/assets/images/avatar.jpg"
   bio    : >-
-    Data Scientist & ML Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
+    Data Scientist & ML/MLOps Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
     and semiconductor physics. Currently at Seldon, deploying production-grade ML/LLM
     architectures with a focus on performance, scalability, and observability.
   location: "London, UK"
@@ -104,3 +104,4 @@ tag_archive:
   path: /tags/
 
  # Trigger rebuild 5
+ 
