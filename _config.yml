@@ -1,13 +1,14 @@
-########################################################################
-#  👋  Minimal Mistakes configuration                                  #
-########################################################################
+#############################################################################
+#  Minimal Mistakes configuration                                           #
+#  https://chatgpt.com/c/68065d06-2b28-800a-aa94-218ea768f2e8?model=gpt-4o  #
+#############################################################################
 
 # -------------------------------
 # SITE META
 # -------------------------------
 title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer building production-grade ML and LLM systems."
-url: "https://maciejkozubal.github.io"       # update after username change propagates
+url: "https://maciejkozubal.github.io"       
 baseurl: ""                                  # leave empty for user-site repo
 
 # -------------------------------
@@ -102,4 +103,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
- # Trigger rebuild 1  
+ # Trigger rebuild 2
