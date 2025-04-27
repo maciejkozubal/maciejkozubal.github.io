@@ -1,5 +1,5 @@
 ---
-title: "Academic Background"
+title: "Academic"
 permalink: /academic/
 layout: single
 author_profile: true
