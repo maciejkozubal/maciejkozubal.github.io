@@ -10,7 +10,9 @@ excerpt: "Full-stack Data Scientist · ML/MLOps Engineer · LLM & GenAI Practiti
 
 Welcome! Check out:
 
-{% include button.html label="About"    url="/about/" %}
-{% include button.html label="Projects" url="/projects/" %}
-{% include button.html label="Blog"     url="/blog/" %}
-{% include button.html label="Academic" url="/academic/" %}
+<div class="btn-group">
+  <a class="btn btn--primary" href="/about/">About</a>
+  <a class="btn btn--primary" href="/projects/">Projects</a>
+  <a class="btn btn--primary" href="/blog/">Blog</a>
+  <a class="btn btn--primary" href="/academic/">Academic</a>
+</div>
