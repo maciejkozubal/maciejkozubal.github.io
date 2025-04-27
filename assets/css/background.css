@@ -1,10 +1,19 @@
-/* full-page background — subtle, readable */
+/* already present */
 body {
   background: url('/assets/images/background.png') center/cover fixed no-repeat, #0a0b10;
-  background-blend-mode: overlay;   /* lets text stay readable */
+  background-blend-mode: overlay;
 }
 
-/* optional: soften it a bit on small screens */
+/* NEW — keep inner page sections transparent */
+.page,
+.page__inner-wrap,
+.page__content,
+.site-content,
+.wrapper {
+  background: transparent !important;
+}
+
+/* optional: soften pattern on narrow screens */
 @media (max-width: 600px) {
   body { background-size: 150%; }
 }
