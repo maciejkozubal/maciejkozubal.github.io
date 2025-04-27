@@ -1,4 +1,10 @@
+/* full-page background — subtle, readable */
 body {
-  background: url('/assets/images/background.png') center center / cover no-repeat fixed, #0a0a0a;
-  background-blend-mode: overlay;
+  background: url('/assets/images/background.png') center/cover fixed no-repeat, #0a0b10;
+  background-blend-mode: overlay;   /* lets text stay readable */
+}
+
+/* optional: soften it a bit on small screens */
+@media (max-width: 600px) {
+  body { background-size: 150%; }
 }
