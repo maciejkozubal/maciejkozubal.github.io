@@ -1,0 +1,20 @@
+/* ---------------------------------------------------
+   Global background – shows on every page section
+   --------------------------------------------------- */
+body{
+  background:
+    #6ad5ff                                                   /* fallback dark colour  0a0b10*/
+    url('{{ "/assets/images/background.jpg" | relative_url }}')
+    center/cover fixed no-repeat;
+}
+
+/* make every wrapper transparent so the pattern is visible */
+.site-header,
+.site-footer,
+.wrapper,
+.site-content,
+.page,
+.page__inner-wrap,
+.page__content {
+  background: transparent !important;
+}
