@@ -1,0 +1,12 @@
+/* assets/css/custom.scss */
+
+body {
+  background-image: url('/assets/images/background.jpg'); // 
+  background-size: cover;       /* Scale the image to cover the entire element */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;   /* Do not tile the image */
+  background-attachment: fixed;   /* Keep the background fixed during scroll */
+
+  /* Ensures the background covers the full height, even if content is short */
+  min-height: 100vh;
+}
