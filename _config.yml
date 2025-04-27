@@ -46,7 +46,7 @@ include:
 # AUTHOR / SIDEBAR PROFILE
 # -------------------------------
 author:
-  name   : "Maciej Kozubal"
+  name   : "Maciej Kozubal test"
   avatar : "/assets/images/avatar.jpg"
   bio    : >-
     Data Scientist & ML Engineer with end-to-end expertise in ML, MLOps, GenAI, LLMs,
@@ -104,4 +104,3 @@ tag_archive:
   path: /tags/
 
  # Trigger rebuild 5
- 
