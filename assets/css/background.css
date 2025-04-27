@@ -1,15 +1,15 @@
-/* already present */
-body {
-  background: url('/assets/images/background.png') center/cover fixed no-repeat, #0a0b10;
-  background-blend-mode: overlay;
+/* global background image */body {
+  background: #0a0b10 url('/assets/images/background.png') center/cover fixed no-repeat;
 }
 
-/* NEW — keep inner page sections transparent */
+/* keep everything transparent so the image shows */
 .page,
 .page__inner-wrap,
 .page__content,
+.wrapper,
 .site-content,
-.wrapper {
+.site-header,
+.site-footer {
   background: transparent !important;
 }
 
