@@ -1,4 +1,4 @@
-title: "Maciej Kozubal v3"
+title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maciejkozubal.github.io" # the base hostname & protocol for your site
@@ -6,4 +6,4 @@ url: "https://maciejkozubal.github.io" # the base hostname & protocol for your s
 # ----- Theme Selection -----
 # Remove or comment out the 'remote_theme' line if it exists
 # remote_theme: "mmistakes/minimal-mistakes"
-theme: jekyll-theme-cayman # Choose one of the supported themes
+theme: jekyll-theme-architect # Choose one of the supported themes
