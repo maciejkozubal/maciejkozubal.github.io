@@ -6,4 +6,4 @@ url: "https://maciejkozubal.github.io" # the base hostname & protocol for your s
 # ----- Theme Selection -----
 # Remove or comment out the 'remote_theme' line if it exists
 # remote_theme: "mmistakes/minimal-mistakes"
-theme: jekyll-theme-midnight # Choose one of the supported themes
+theme: jekyll-theme-minima # Choose one of the supported themes
