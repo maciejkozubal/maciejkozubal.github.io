@@ -1,3 +1,9 @@
 title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://maciejkozubal.github.io" # the base hostname & protocol for your site
+
+# Build settings
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
