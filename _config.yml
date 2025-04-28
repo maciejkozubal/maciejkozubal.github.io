@@ -6,7 +6,7 @@
 # -------------------------------
 # SITE META
 # -------------------------------
-title: "Maciej Kozubal"
+title: "Maciej Kozubal test2"
 description: "Full-stack Data Scientist & MLOps Engineer building production-grade ML and LLM systems."
 url: "https://maciejkozubal.github.io"       
 baseurl: ""                                  # leave empty for user-site repo
@@ -35,6 +35,9 @@ plugins:
 # Sass: allow custom overrides (e.g. assets/css/custom.scss)
 sass:
   style: compressed
+  load_paths:           # <-- Add this section
+    - _sass             # Default Jekyll/Theme Sass path
+    - assets/css        # Add your directory here  
 
 # -------------------------------
 # DEFAULT CONTENT LOCATIONS
