@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 layout: single
-author_profile: true
+author_profile: true # If you want the sidebar here too
 ---
 
 ## 👋 Hi, I’m Maciej Kozubal, PhD
