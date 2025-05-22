@@ -1,3 +1,36 @@
-# Purpose: Use Minimal Mistakes theme from GitHub and select a skin
+title: "Maciej Kozubal"
+description: "Full-stack Data Scientist & MLOps Engineer"
+url: "https://maciejkozubal.github.io"
+baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # Or your preferred skin
+minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+author:
+  name: "Maciej Kozubal"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Full-stack Data Scientist & MLOps Engineer"
+  location: "London, UK"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/maciejkozubal"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/maciejkozubal/"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+include:
+  - _pages
+google_analytics: UA-XXXXXXXXX-X
