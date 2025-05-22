@@ -33,4 +33,3 @@ defaults:
       related: true
 include:
   - _pages
-google_analytics: UA-XXXXXXXXX-X
