@@ -7,3 +7,6 @@ main:
     url: /blog/
   - title: "Academic Background"
     url: /academic/
+- title: "AI Notes"
+  url: /notes/ai/
+
