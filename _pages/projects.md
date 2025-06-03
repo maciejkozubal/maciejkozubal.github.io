@@ -14,4 +14,3 @@ author_profile: true
 | 2023 | **Stock-Forecasting Platform** | Prophet · SARIMAX · Airflow · Azure Functions · <br>API first; dashboard in Grafana |
 | 2022 | **COVID-19 Biosensor Analytics** | Pandas · Scikit-learn · SHAP explainability · <br>Edge device integration |
 
-*Full code or notebooks for many of these live in my [GitHub](https://github.com/matthiaskozubal?tab=repositories).*

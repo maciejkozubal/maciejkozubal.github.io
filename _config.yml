@@ -5,7 +5,6 @@ baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
 author:
@@ -20,16 +19,33 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/maciejkozubal/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mkoz001@gmail.com"
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false # true
       read_time: true
       comments: true
       share: true
       related: true
 include:
   - _pages
+  - favicon.ico
+
+footer:
+  links:
+    - label: "GitHub"    
+      icon: "fab fa-github" 
+      url: "https://github.com/maciejkozubal"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/maciej-kozubal"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mkoz001@gmail.com"
+  show_feed_icon: false

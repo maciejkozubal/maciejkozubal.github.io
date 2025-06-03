@@ -2,63 +2,59 @@
 title: "About"
 permalink: /about/
 layout: single
-author_profile: true # If you want the sidebar here too
+author_profile: true
 ---
 
-## 👋 Hi, I’m Maciej Kozubal, PhD
+## About me
 
-Full-stack **Data Scientist** and **ML/MLOps Engineer** at **Seldon** (London) with a background in semiconductor physics research.  
-I design, ship, and monitor production-grade ML & LLM systems that serve real users at scale.
-
----
-
-### 🔧 Core skill set
-
-- **End-to-end ML pipeline** — EDA, feature engineering, model training (tree-based to LLMs), evaluation and A/B testing  
-- **MLOps & DevOps** — Kubernetes, Docker, CI/CD, GitOps (Argo CD), model versioning, shadow & canary deployments, observability  
-- **Generative AI & LLMs** — fine-tuning, RAG architectures, prompt engineering, guard-rails, explainability  
-- **Cloud & infra** — Azure, GCP, Seldon Core/Deploy, KServe, MLflow, Ray, Kafka  
-- **Programming** — Python (ML/DL stack), SQL, R, Bash/fish; former PHP (Symfony) developer  
-- **Soft skills** — customer enablement, workshop facilitation, stakeholder comms, mentoring
+I’m **Maciej Kozubal** — an MLOps Customer Success & Solutions Engineer and full-stack data scientist at Seldon (London). With a doctorate in electronic engineering and a decade of semiconductor-physics research behind me, I focus on building and operating production-grade machine-learning and large-language-model solutions.
 
 ---
 
-### 🚀 Current role · **Seldon Technologies** (2024 - present)
+### Core capabilities
 
-*Customer Success / Support Engineer*  
-Helping enterprises productionise ML with Seldon’s platform:
-
-* Architected & deployed 30 + models (classical ML → LLM apps) with canary/shadow strategies  
-* Built explainers, outlier detectors, and live dashboards for fraud-detection and customer-analytics use-cases  
-* Ran on-site trainings and IQ sessions, from cluster install to best-practice MLOps workflows
-
----
-
-### 🏢 Previous highlights
-
-| Period | Role & employer | Key wins |
-|--------|-----------------|----------|
-| **2022-2024** | **Lead Data Scientist**, *Accenture* | − Stock-forecasting pipeline (SARIMAX, Prophet)<br>− ChatGPT-powered NL-to-SQL bot for banking clients |
-| **2011-2022** | **Independent Researcher**, *Łukasiewicz Institute* | − Device physics for transistors & quantum-cascade lasers<br>− Led lab work on COVID-19 biosensors → 2 patents, multiple papers |
-| **2010-2011** | **Science Education Specialist**, *University of Warsaw* | Ran physics outreach workshops & lectures |
+- **Machine-learning lifecycle**: exploratory analysis, feature engineering, training, evaluation, A/B testing  
+- **MLOps & DevOps**: Kubernetes, Docker, CI/CD, GitOps (Argo CD), versioning, phased roll-outs (shadow traffic and canary release), observability  
+- **Generative AI & LLMs**: fine-tuning, RAG architectures, prompt engineering, guard-rails, explainability  
+- **Cloud & infrastructure**: Azure, GCP, Seldon Core/Deploy, KServe, MLflow, Ray, Kafka  
+- **Programming**: Python (ML/DL stack), SQL, R, Bash
+- **Collaboration**: customer enablement, workshop delivery, stakeholder communication, mentoring  
 
 ---
 
-### 🎓 Education
+### Current position | Seldon Technologies · 2024 – present
 
-* PhD, **Electronic Engineering**, Łukasiewicz Institute  
-* MSc, **Semiconductor Physics**, University of Warsaw
+**MLOps Customer Success & Solutions Engineer**
 
----
-
-### 📢 Speaking & community
-
-* Talks at SGH Warsaw (Quantum Computing, Image Recognition)  
-* Frequent internal workshops on LLM fine-tuning and MLOps best practices  
-* Organiser of Euro-Asian fusion supper clubs & sci-fi LARP game writer in spare time
+- Designed and deployed dozens of ML and LLM services, leveraging phased rollout techniques—shadow traffic and canary releases—to safeguard production quality  
+- Added explainability, anomaly detection and real-time dashboards for fraud-detection and customer-analytics pipelines  
+- Delivered on-site enablement programmes covering cluster installation through to advanced MLOps practice  
 
 ---
 
-> **Let’s build something together.**  
-> Ping me on [LinkedIn](https://linkedin.com/in/maciejkozubal) or open an issue/PR on my [GitHub](https://github.com/maciejkozubal).
+### Earlier experience
 
+| Period       | Role & organisation                        | Selected work                                                                                                                         |
+|--------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 2022 – 2024  | Lead Data Scientist, Accenture             | Stock-forecasting pipeline (SARIMAX, Prophet); ChatGPT-driven NL-to-SQL assistant for banking clients                                 |
+| 2011 – 2022  | Independent Researcher, Łukasiewicz Institute | Device physics for transistors and quantum-cascade lasers; COVID-19 biosensor programme leading to two patents, multiple peer-reviewed articles and international conference presentations |
+| 2010 – 2011  | Science Education Specialist, University of Warsaw | Design and delivery of physics-outreach workshops and lectures                                                                        |
+
+---
+
+### Education
+
+- PhD, **Electronic Engineering**, Łukasiewicz Institute  
+- MSc, **Semiconductor Physics**, University of Warsaw  
+
+---
+
+### Community & speaking
+
+- Invited talks at SGH Warsaw on quantum computing and image recognition  
+- Internal workshops on LLM fine-tuning and MLOps best practice  
+- Organiser of Euro-Asian fusion supper clubs and science-fiction LARP events  
+
+---
+
+*Interested in collaborating?* Connect on [LinkedIn](https://linkedin.com/in/maciejkozubal) or explore my work on [GitHub](https://github.com/maciejkozubal).
