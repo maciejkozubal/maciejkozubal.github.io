@@ -2,11 +2,14 @@ title: "Maciej Kozubal"
 description: "Full-stack Data Scientist & MLOps Engineer"
 url: "https://maciejkozubal.github.io"
 baseurl: ""
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
-  - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
 author:
   name: "Maciej Kozubal"
   avatar: "/assets/images/avatar.jpg"
@@ -27,15 +30,17 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
       author_profile: false # true
-      read_time: true
       comments: true
+      layout: single
+      read_time: true
+      search: true
       share: true
       related: true
 include:
   - _pages
   - favicon.ico
+  - "_includes/head-custom.html"
 
 footer:
   links:

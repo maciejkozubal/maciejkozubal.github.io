@@ -1,0 +1,16 @@
+/* vertical-timeline (year-once) */
+.timeline{display:grid;grid-template-columns:4.5rem 12px 1fr;row-gap:1.5rem;margin-left:1rem;position:relative;}
+/* vertical spine */
+.timeline::before{content:"";position:absolute;left:4.5rem;top:0;bottom:0;width:2px;background:#888;}
+/* grid “row” uses display:contents so cells share parent grid */
+.row{display:contents;}
+/* year column */
+.year{grid-column:1;font-weight:700;line-height:1.3;}
+/* middle column with dot */
+.dot{grid-column:2;position:relative;}
+.dot::before{content:"";position:absolute;left:-5px;top:.45rem;width:10px;height:10px;border-radius:50%;background:#ff4081;}
+/* details column */
+.details{grid-column:3;}
+.details strong a{color:inherit;text-decoration:none;}
+.details ol,.details ul{margin:.3rem 0 0 1.2rem;}
+
