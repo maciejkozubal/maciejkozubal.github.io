@@ -13,15 +13,31 @@ I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London)
 
 ---
 
-### Core capabilities
+### Core Competencies
 
-- **Machine-learning lifecycle**: exploratory analysis, feature engineering, training, evaluation, A/B testing  
-- **MLOps & DevOps**: Kubernetes, Docker, CI/CD, GitOps (Argo CD), versioning, phased roll-outs (shadow traffic, canary releases), observability  
-- **Generative AI & LLMs**: fine-tuning, RAG, prompt engineering, guard-rails, explainability  
-- **Cloud & infrastructure**: Azure, GCP, Seldon Core/Deploy, KServe, MLflow, Ray, Kafka  
-- **Programming**: Python (ML/DL stack), SQL, R, Bash  
-- **Collaboration**: customer enablement, workshops, stakeholder comms, mentoring  
+<div class="skills-section" markdown="1">
 
+  <div class="skill-row">
+    <div class="skill-category">ML System Architecture</div>
+    <div class="skill-list">Predictive Modeling (classical ML, time-series, NNs), imbalanced datasets, hyperparameter tuning (Optuna), EDA, feature engineering; GenAI/LLMs (RAG, fine-tuning)</div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-category">MLOps & Automation</div>
+    <div class="skill-list">Production deployment, A/B testing, CI/CD, GitOps (Argo CD), Kubernetes, Docker, observability, drift detection, explainers</div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-category">Platforms & Tooling</div>
+    <div class="skill-list">Azure, GCP, Seldon, KServe, MLflow, Airflow, Ray, Kafka, Python (ML/DL Stack), SQL, R, Bash</div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-category">Leadership & Strategy</div>
+    <div class="skill-list">Technical leadership, stakeholder management, customer enablement, team mentoring, workshops, and strategic planning</div>
+  </div>
+
+</div>
 ---
 
 ### Current position | Seldon Technologies · 2024 - present

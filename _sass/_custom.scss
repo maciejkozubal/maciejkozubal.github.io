@@ -1,3 +1,4 @@
+/* === Timeline Section === */
 /* vertical-timeline (year-once) */
 .timeline{display:grid;grid-template-columns:4.5rem 12px 1fr;row-gap:1.5rem;margin-left:1rem;position:relative;}
 /* vertical spine */
@@ -14,3 +15,24 @@
 .details strong a{color:inherit;text-decoration:none;}
 .details ol,.details ul{margin:.3rem 0 0 1.2rem;}
 
+
+/* === Two-Column Skills Section === */
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between each skill row */
+    margin-top: 2rem;
+  }
+.skill-row {
+display: grid;
+grid-template-columns: 10rem 1fr; /* Left column width and right column takes the rest */
+gap: 1.5rem; /* Space between category and list */
+}
+.skill-category {
+font-weight: 700;
+text-align: right;
+}
+.skill-list {
+// border-left: 2px solid #888; /* This is your vertical line */
+padding-left: 1.5rem;
+}

@@ -3,6 +3,9 @@
 search: false
 ---
 
+// Override theme variable to make the page wider
+/* $max-width: 1600px; */
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
