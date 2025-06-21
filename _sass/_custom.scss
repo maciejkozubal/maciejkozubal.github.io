@@ -1,8 +1,8 @@
 /* === Timeline Section === */
 /* vertical-timeline (year-once) */
-.timeline{display:grid;grid-template-columns:4.5rem 12px 1fr;row-gap:1.5rem;margin-left:1rem;position:relative;}
+.timeline{display:grid;grid-template-columns:7rem 12px 1fr;row-gap:1.5rem;margin-left:1rem;position:relative;}
 /* vertical spine */
-.timeline::before{content:"";position:absolute;left:4.5rem;top:0;bottom:0;width:2px;background:#888;}
+.timeline::before{content:"";position:absolute;left:7rem;top:0;bottom:0;width:2px;background:#888;}
 /* grid “row” uses display:contents so cells share parent grid */
 .row{display:contents;}
 /* year column */
@@ -15,6 +15,45 @@
 .details strong a{color:inherit;text-decoration:none;}
 .details ol,.details ul{margin:.3rem 0 0 1.2rem;}
 
+/* === NEW: Bar Timeline Section === */
+.bar-timeline {
+  display: grid;
+  grid-template-columns: 7rem 12px 1fr;
+  row-gap: 1.5rem;
+  margin-left: 1rem;
+  position: relative;
+}
+.bar-timeline::before {
+  content: "";
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #888;
+}
+/* We still use .row and .details from the original timeline */
+/* We define a new .bar-year for the left column */
+.bar-timeline .bar-year {
+  grid-column: 1;
+  font-weight: 700;
+  line-height: 1.3;
+}
+/* This is the vertical bar marker */
+.bar-timeline .bar-marker {
+  grid-column: 2;
+  position: relative;
+}
+.bar-timeline .bar-marker::before {
+  content: "";
+  position: absolute;
+  background: #ff4081;
+  left: -4px;
+  width: 8px;
+  border-radius: 4px;
+  height: var(--bar-height, 50px);
+  top: var(--bar-top, 1rem);
+}
 
 /* === Two-Column Skills Section === */
 .skills-section {
@@ -25,7 +64,7 @@
   }
 .skill-row {
 display: grid;
-grid-template-columns: 10rem 1fr; /* Left column width and right column takes the rest */
+grid-template-columns: 7rem 1fr; /* Left column width and right column takes the rest */
 gap: 1.5rem; /* Space between category and list */
 }
 .skill-category {

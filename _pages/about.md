@@ -6,14 +6,14 @@ author_profile: true
 ---
 
 
-## About me
+<!-- ## About me -->
 
-I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London). With a PhD in electronic engineering and eleven years in semiconductor research, I now build and operate production ML and LLM systems.
+I’m a full-stack Data Scientist & MLOps engineer, currently at Seldon (London). With a PhD in electronic engineering and eleven years in semiconductor research, I now build and operate production ML and LLM systems.
 {: .text-justify}
 
----
+<!-- --- -->
 
-### Core Competencies
+## Core Competencies
 
 <div class="skills-section" markdown="1">
 
@@ -38,11 +38,12 @@ I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London)
   </div>
 
 </div>
----
 
-### Current position | Seldon Technologies · 2024 - present
+<!-- --- -->
 
-**MLOps Customer Success & Solutions Engineer**
+## Current Position | Seldon Technologies · 2024 - present
+
+**MLOps & ML Customer Success & Solutions Engineer**
 
 - ML: tree-based, XGBoost, time-series and transformer models for fraud detection, customer analytics and demand forecasting
 - MLOps: production rollout with Seldon Core/KServe on Kubernetes, shadow & canary strategies, monitoring, explainability, outlier detection
@@ -50,40 +51,96 @@ I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London)
 - Customer success & solutions: solved infrastructure and Seldon usage issues, optimised ML model deployment and cluster performance, hosted webinars and custom-tailored enablement sessions, produced best-practice guides
 - Enablement & training: slide decks, notebooks, onsite workshops, mentoring of engineers, internal knowledge-sharing
 
----
+<!-- --- -->
 
-### Earlier experience
+## Earlier Experience
 
-| Period       | Role & organisation                        | Selected work                                                                                                                         |
-|--------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 2022 - 2024  | Data Scientist, Accenture             |  Stock forecasting (SARIMAX, Prophet), ChatGPT NL-to-SQL assistant with vector DB, generative-AI marketing content system, immigration-trend prediction, centralised data management & ETL pipelines, enterprise dashboards, multi-source data ingestion, database consolidation & ER modelling, MLOps testing research, LLM fine-tuning & enablement workshops |
-| 2011 - 2022  | Independent Researcher, Łukasiewicz Institute | Device physics for transistors and quantum-cascade lasers; COVID-19 biosensor programme leading to two patents, multiple peer-reviewed articles and international conference presentations |
-| 2010 - 2011  | Science Education Specialist, University of Warsaw | Design and delivery of physics-outreach workshops and lectures                                                                        |
+<!-- | Period | Role | Organisation | Selected work |
+| :--- | :--- | :--- | :--- |
+| 2024.03-present | MLOps Customer Success/Customer Support Engineer | Seldon Technologies | Production ML model support (tree-based, NLP, etc.); LLM app architecture & deployment; production deployment guidance (shadow/canary); MLOps infrastructure support (Kubernetes, Kafka); customer enablement and training.  |
+| 2022.05-2024.02 | Data Science Analyst | Accenture | Stock forecasting (SARIMAX, Prophet), ChatGPT NL-to-SQL assistant with vector DB, generative-AI marketing content system, immigration-trend prediction, ETL pipelines, database consolidation & ER modelling, LLM fine-tuning & MLOps enablement workshops.  |
+| 2011.07-2022.04 | Independent Researcher | Łukasiewicz Research Network - Institute of Microelectronics and Photonics | Device physics for transistors & quantum-cascade lasers; COVID-19 biosensor programme leading to two patents, multiple peer-reviewed articles & conference presentations.  |
+| 2010.09, 2011.09 | Science Education Specialist | Faculty of Physics, University of Warsaw | Design and delivery of physics-outreach workshops and lectures.  | -->
+
+
+<div class="bar-timeline" markdown="1">
+
+  <div class="row">
+    <div class="bar-year">2024 - Present</div>
+    <div class="bar-marker" style="--bar-height: 40px; --bar-top: 0.8rem;"></div>
+    <div class="details">
+      <strong>MLOps Customer Success/Support Engineer</strong> (Seldon Technologies)<br>
+      Supported production ML models, designed and deployed scalable LLM apps, and guided enterprise clients on deployment strategies and MLOps infrastructure.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="bar-year">2022 - 2024</div>
+    <div class="bar-marker" style="--bar-height: 100px; --bar-top: 0.8rem;"></div>
+    <div class="details">
+      <strong>Data Science Analyst</strong> (Accenture)<br>
+      Delivered projects including stock forecasting, a ChatGPT-powered NL-to-SQL assistant, a generative-AI marketing content system, and ETL pipelines.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="bar-year">2011 - 2022</div>
+    <div class="bar-marker" style="--bar-height: 150px; --bar-top: 0.8rem;"></div>
+    <div class="details">
+      <strong>Independent Researcher</strong> (Institute of Microelectronics and Photonics, Łukasiewicz Research Network)<br>
+      Researched device physics for transistors and quantum-cascade lasers; contributed to a COVID-19 biosensor programme, leading to two patents.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="bar-year">2010 - 2011</div>
+    <div class="bar-marker" style="--bar-top: 0.8rem; --bar-height: 60px;"></div>
+    <div class="details">
+      <strong>Science Education Specialist</strong> (University of Warsaw)<br>
+      Designed and delivered physics-outreach workshops and lectures.
+    </div>
+  </div>
+
+</div>
+
+<!-- --- -->
+
+## Education
+
+<!-- - **PhD**, **Electronic Engineering**
+  - Institute of Microelectronics and Photonics, Łukasiewicz Research Network, Warsaw, Poland
+  - Semiconductor device physics (III-V, II-VI), GaN HEMT transistors, Quantum-cascade lasers, Ion implantation
+- **MSc**, **Semiconductor Physics**
+  - Faculaty of Physics, University of Warsaw, Poland
+  - Carrier transport modelling, Raman spectroscopy, Ultra-low frequency noise measurements, Graphene functionalization   -->
 
 ### Education
 
-- PhD, **Electronic Engineering**, Łukasiewicz Institute - semiconductor device physics (III-V, II-VI), quantum-cascade lasers, ion implantation
-- MSc, **Semiconductor Physics**, University of Warsaw - carrier transport modelling, Raman spectroscopy, ultra-low frequency noise measurements, graphene functionalization  
+<div class="timeline" markdown="1">
 
----
-<!-- <style>
-/* === vertical timeline (year-one-time) === */
-.timeline{display:grid;grid-template-columns:4.5rem 12px 1fr;row-gap:1.5rem;margin-left:1rem;position:relative;}
-/* vertical spine */
-.timeline::before{content:"";position:absolute;left:4.5rem;top:0;bottom:0;width:2px;background:#888;}
-/* grid “row” uses display:contents so cells share parent grid */
-.row{display:contents;}
-/* year column */
-.year{grid-column:1;font-weight:700;line-height:1.3;}
-/* middle column with dot */
-.dot{grid-column:2;position:relative;}
-.dot::before{content:"";position:absolute;left:-5px;top:.45rem;width:10px;height:10px;border-radius:50%;background:#ff4081d0;}
-/* details column */
-.details{grid-column:3;}
-.details strong a{color:inherit;text-decoration:none;}
-.details ol,.details ul{margin:.3rem 0 0 1.2rem;}
-</style> -->
-### Community & speaking
+  <div class="row">
+    <div class="year"><strong>PhD</strong>, Electronic Engineering</div>
+    <div class="dot"></div>
+    <div class="details">
+      <strong>Institute of Microelectronics and Photonics, Łukasiewicz Research Network</strong> (Warsaw, Poland)<br>
+      Semiconductor device physics (III-V, II-VI), GaN HEMT transistors, Quantum-cascade lasers, Ion implantation
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="year"><strong>MSc</strong>, Semiconductor Physics</div>
+    <div class="dot"></div>
+    <div class="details">
+      <strong>Faculty of Physics, University of Warsaw</strong> (Poland)<br>
+      Carrier transport modelling, Raman spectroscopy, Ultra-low frequency noise measurements, Graphene functionalization
+    </div>
+  </div>
+
+</div>
+
+<!-- --- -->
+
+## Community & Speaking
 <div class="timeline">
 
   <!-- 2025 — first (and only) event -->
@@ -158,13 +215,13 @@ I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London)
 
 </div>
  
----
+<!-- --- -->
 
-### Hobbies
-- Hiking & rock climbing
+## Hobbies
+- Rock climbing & Hiking
 - Organising supper clubs and baking cakes  
 - Running sci-fi LARP events ([BlackBox No. 45 - *And I Must Scream*](https://app.evenea.pl/event/bb3cno45?callback=&event_id=182014), [OMNI](https://fleppl.wixsite.com/larpblog/post/omni-solidny-larp-science-fiction))
 
----
+<!-- ---
 
-*Interested in collaborating?* Connect on [LinkedIn](https://linkedin.com/in/maciejkozubal) or explore my work on [GitHub](https://github.com/maciejkozubal).
+*Interested in collaborating? Connect on [LinkedIn](https://linkedin.com/in/maciejkozubal) or explore my work on [GitHub](https://github.com/maciejkozubal)* -->
