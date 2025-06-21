@@ -163,7 +163,7 @@ I’m a full-stack data scientist & MLOps engineer, currently at Seldon (London)
 ### Hobbies
 - Hiking & rock climbing
 - Organising supper clubs and baking cakes  
-- Running sci-fi LARP events ([BlackBox No. 45 - *And I Must Scream*](https://app.evenea.pl/event/bb3cno45?callback=&event_id=182014), [OMNI - solidny larp science-fiction](https://fleppl.wixsite.com/larpblog/post/omni-solidny-larp-science-fiction))
+- Running sci-fi LARP events ([BlackBox No. 45 - *And I Must Scream*](https://app.evenea.pl/event/bb3cno45?callback=&event_id=182014), [OMNI](https://fleppl.wixsite.com/larpblog/post/omni-solidny-larp-science-fiction))
 
 ---
 

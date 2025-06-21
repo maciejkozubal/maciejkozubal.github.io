@@ -53,4 +53,4 @@ footer:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:mkoz001@gmail.com"
-  show_feed_icon: false
+  show_feed_icon: false 
