@@ -18,6 +18,7 @@ To run the site locally:
     ```bash
     bundle exec jekyll serve --livereload
     ```
+3. **View**: [localhost:4000](http://localhost:4000)
 
 ### Customization
 

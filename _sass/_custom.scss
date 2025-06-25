@@ -15,6 +15,19 @@
 .details strong a{color:inherit;text-decoration:none;}
 .details ol,.details ul{margin:.3rem 0 0 1.2rem;}
 
+/* --- Hyperlink Styles for Timelines --- */
+
+/* Style for links inside any timeline's details section */
+.timeline .details a {
+  color: #ff4081;
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Add an underline when the user hovers over the link */
+.timeline .details a:hover {
+  text-decoration: underline;
+}
+
 /* === NEW: Bar Timeline Section === */
 .bar-timeline {
   display: grid;

@@ -3,10 +3,10 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
-  - title: "Academic Background"
-    url: /academic/
+  - title: "Community and Speaking"
+    url: /community-and-speaking/
+  - title: "Research"
+    url: /research/
   - title: "Notes"
     url: /notes/ai/
 
