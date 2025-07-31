@@ -43,7 +43,7 @@ I’m a full-stack Data Scientist & MLOps engineer at Seldon, where I build and 
 
 ## Current Position | Seldon Technologies · 2024 - present
 
-**MLOps & ML Customer Success & Solutions Engineer**
+**MLOps & ML Solutions Architect**
 
 - ML: tree-based, XGBoost, time-series and transformer models for fraud detection, customer analytics and demand forecasting
 - MLOps: production rollout with Seldon Core/KServe on Kubernetes, shadow & canary strategies, monitoring, explainability, outlier detection
