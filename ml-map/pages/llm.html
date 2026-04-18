@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LLMs & Gen AI · ML Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>body { overflow: auto; height: auto; }</style>
+</head>
+<body>
+<div class="subpage">
+  <a href="../ML Map.html" class="subpage-back">← back to map</a>
+  <div class="subpage-crumb" style="color:#a891c7">/// Deep Learning · L3 · advanced</div>
+  <h1>LLMs & Gen AI</h1>
+  <p class="subpage-lede">Large language models collapsed many NLP subfields into a single interface. Understanding them means understanding transformers, the pretraining/fine-tuning split, and how to evaluate open-ended output.</p>
+
+  <h2>Core ideas</h2>
+  <p>Transformers as flexible sequence processors · self-attention as a differentiable lookup · pretraining on massive corpora · alignment via supervised fine-tuning and preference optimization.</p>
+
+  <h2>Key topics</h2>
+  <p>Pretraining vs fine-tuning · RLHF / DPO · Tokenizers &amp; context windows · Parameter-efficient tuning (LoRA, QLoRA) · Evaluation harnesses · Decoding strategies</p>
+
+  <h2>Learning resources</h2>
+  <a class="resource" href="#"><span class="resource-name">Andrej Karpathy — "Let's build GPT" series</span><span class="resource-type">video · essential</span></a>
+  <a class="resource" href="#"><span class="resource-name">The Illustrated Transformer — Jay Alammar</span><span class="resource-type">article</span></a>
+  <a class="resource" href="#"><span class="resource-name">Hugging Face — NLP course</span><span class="resource-type">course · free</span></a>
+  <a class="resource" href="#"><span class="resource-name">"Attention Is All You Need" — Vaswani et al.</span><span class="resource-type">paper · 2017</span></a>
+  <a class="resource" href="#"><span class="resource-name">Sebastian Raschka — LLMs from Scratch</span><span class="resource-type">book</span></a>
+
+  <h2>Things people get wrong</h2>
+  <p>Treating LLMs as oracles instead of as samplers from a conditional distribution. Over-fine-tuning when a prompt change would do. Skipping eval design — "it looks good" is not an eval.</p>
+
+  <h2>Next stops on the map</h2>
+  <p>→ RAG &amp; Agents · → Model Serving · → Ethics &amp; Safety</p>
+</div>
+</body>
+</html>

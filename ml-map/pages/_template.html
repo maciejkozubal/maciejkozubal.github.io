@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Node · ML Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>body { overflow: auto; height: auto; }</style>
+</head>
+<body>
+<div class="subpage">
+  <a href="../ML Map.html" class="subpage-back">← back to map</a>
+  <div class="subpage-crumb" id="crumb">/// loading</div>
+  <h1 id="title">—</h1>
+  <p class="subpage-lede" id="lede">—</p>
+
+  <h2>Key topics</h2>
+  <p id="topics">—</p>
+
+  <h2>Curated resources</h2>
+  <div id="resources">
+    <a class="resource" href="#"><span class="resource-name">Search Google Scholar / arXiv for recent surveys</span><span class="resource-type">starting point</span></a>
+    <a class="resource" href="#"><span class="resource-name">Official docs of the primary tool / library</span><span class="resource-type">docs</span></a>
+    <a class="resource" href="#"><span class="resource-name">Awesome-list on GitHub for this topic</span><span class="resource-type">reference</span></a>
+    <a class="resource" href="#"><span class="resource-name">A small weekend project to internalize it</span><span class="resource-type">practice</span></a>
+  </div>
+
+  <h2>Suggested practice</h2>
+  <p>Pick a small, bounded project. Ship something end-to-end — even crude — before reaching for the next concept. Depth comes from wrestling with one problem, not from skimming ten.</p>
+</div>
+
+<script src="../data.js"></script>
+<script>
+  const id = new URLSearchParams(location.search).get("id");
+  const node = (window.NODES || []).find(n => n.id === id);
+  if (node) {
+    const cat = window.CATEGORIES[node.cat];
+    const lvl = ["","essential","core","advanced"][node.level];
+    document.title = node.title + " · ML Map";
+    const crumb = document.getElementById("crumb");
+    crumb.textContent = `/// ${cat.label} · L${node.level} · ${lvl}`;
+    crumb.style.color = cat.color;
+    document.getElementById("title").textContent = node.title;
+    document.getElementById("lede").textContent = node.blurb;
+    document.getElementById("topics").textContent = node.topics.join(" · ");
+  } else {
+    document.getElementById("crumb").textContent = "/// unknown node";
+    document.getElementById("title").textContent = "Not found";
+    document.getElementById("lede").textContent = "Return to the map and pick a node.";
+  }
+</script>
+</body>
+</html>
