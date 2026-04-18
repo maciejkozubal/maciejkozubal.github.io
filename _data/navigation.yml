@@ -7,6 +7,6 @@ main:
     url: /community-and-speaking/
   - title: "Research"
     url: /research/
-  - title: "Notes"
-    url: /notes/ai/
-
+  - title: "ML Map"
+    # url: /notes/ai/
+    url: /ml-map/
